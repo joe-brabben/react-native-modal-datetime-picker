@@ -146,6 +146,9 @@ export class DateTimePickerModal extends React.PureComponent {
       ? pickerStyles.containerDark
       : pickerStyles.containerLight;
 
+    console.log("entered");
+    console.log(isVisible);
+
     return (
       <Modal
         isVisible={isVisible}
